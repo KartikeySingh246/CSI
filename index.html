@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dynamic Command Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container" id="main-container">
+    <h2>Command Playground</h2>
+    <div class="command-bar">
+      <input type="text" id="commandInput" placeholder="Type a command e.g. Turn Off Gravity">
+      <button onclick="runCommand()">Run</button>
+    </div>
+    <div class="commands-list">
+      <b>Available Commands:</b>
+      <span>Turn Off Gravity</span>
+      <span>Turn On Gravity</span>
+      <span>Shake</span>
+      <span>Spin</span>
+      <span>Pulse</span>
+      <span>Jump</span>
+      <span>Explode</span>
+      <span>Large</span>
+      <span>Small</span>
+      <span>Normal</span>
+      <span>Hide Boxes</span>
+      <span>Show Boxes</span>
+      <span>Add Element</span>
+      <span>Remove Last</span>
+      <span>Reset</span>
+      <span>Background Stars</span>
+      <span>Background Dark</span>
+      <span>Background Light</span>
+      <span>Background Fire</span>
+      <span>Expand Container</span>
+      <span>Shrink Container</span>
+    </div>
+    <div class="elements" id="elements"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
